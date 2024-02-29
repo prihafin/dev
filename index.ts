@@ -7,10 +7,10 @@ const optionatorModule = require('optionator');
 
 import { ICommandlineOptions, parseCommandline } from './cmdline-options';
 
-const packageJson = require('../package.json');
+const packageJson = require('./package.json');
 
 const argvCommands = process.argv.slice(2);
-const cmdPath = path.join(__dirname, '..', 'commands');
+const cmdPath = path.join(__dirname, 'commands');
 
 const argvOptions = {
   prepend: 'Usage: dev <command>',

@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc --watch",
-    "build": "tsc && copy \"index.js\" \"bin/dev\""
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
